@@ -1,0 +1,31 @@
+<?php //subresource_operations_ed160fcccc3577abc2afc482ae7ea02d
+
+return [PHP_INT_MAX, [
+    'api_zones_members_get_subresource' => [
+        'property' => 'members',
+        'collection' => true,
+        'resource_class' => 'App\\Entity\\Addressing\\ZoneMember',
+        'shortNames' => [
+            'ZoneMember',
+            'Zone',
+        ],
+        'identifiers' => [
+            'code' => [
+                'App\\Entity\\Addressing\\Zone',
+                'code',
+                true,
+            ],
+        ],
+        'operation_name' => 'members_get_subresource',
+        'route_name' => 'api_zones_members_get_subresource',
+        'path' => '/admin/zones/{code}/members.{_format}',
+        'defaults' => [],
+        'requirements' => [],
+        'options' => [],
+        'host' => '',
+        'schemes' => [],
+        'condition' => '',
+        'controller' => null,
+        'stateless' => null,
+    ],
+]];

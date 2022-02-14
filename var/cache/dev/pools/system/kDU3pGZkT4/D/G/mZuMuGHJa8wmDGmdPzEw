@@ -1,0 +1,3 @@
+<?php //Sylius%255CPayPalPlugin%255CEntity%255CPayPalCredentialsInterface
+
+return [PHP_INT_MAX, []];

@@ -1,0 +1,31 @@
+<?php //subresource_operations_7de635a2ce9a604abc86642c258c216d
+
+return [PHP_INT_MAX, [
+    'api_shipments_methods_get_subresource' => [
+        'property' => 'method',
+        'collection' => true,
+        'resource_class' => 'App\\Entity\\Shipping\\ShippingMethod',
+        'shortNames' => [
+            'ShippingMethod',
+            'Shipment',
+        ],
+        'identifiers' => [
+            'id' => [
+                'App\\Entity\\Shipping\\Shipment',
+                'id',
+                true,
+            ],
+        ],
+        'operation_name' => 'methods_get_subresource',
+        'route_name' => 'api_shipments_methods_get_subresource',
+        'path' => '/shop/shipments/{id}/methods',
+        'defaults' => [],
+        'requirements' => [],
+        'options' => [],
+        'host' => '',
+        'schemes' => [],
+        'condition' => '',
+        'controller' => null,
+        'stateless' => null,
+    ],
+]];
